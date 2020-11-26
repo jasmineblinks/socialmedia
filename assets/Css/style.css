@@ -45,8 +45,9 @@ body{
   }
 .second-part{
   display: grid;
-  margin-right: 10px; 
-  margin-left: 40px;
+  margin: auto;
+  /* margin-right: 10px;  */
+  /* margin-left: 40px; */
   margin-bottom: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   grid-gap:20px;
@@ -56,7 +57,7 @@ body{
 }
 .second-text{
   background-color: hsl(228, 28%, 20%) ;
-  width: 270px;
+  width: 375px;
   position: relative;
    /* margin-left: 40px */
   border-radius: 10px;
