@@ -239,8 +239,8 @@ input::after{
   }
   .second-part{
     display: grid;
-    margin-left: 35px;
-    margin-right: 35px;
+    /* margin-left: 35px;
+    margin-right: 35px; */
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
     grid-column-gap:10px;
     grid-row-gap: 10px;
@@ -249,21 +249,25 @@ input::after{
   .second-text{
     background-color: hsl(228, 28%, 20%) ;
     width: 280px;
+    margin:auto;
     border-radius: 10px;
   }
   .first-mini{
     background-color: hsl(228, 28%, 20%) ;
     width: 280px;
+    margin:auto;
     border-radius: 10px;
   }
   .second-mini{
     background-color: hsl(228, 28%, 20%) ;
     width: 280px;
+    margin:auto;
     border-radius: 10px;
   }
   .third-mini{
     background-color: hsl(228, 28%, 20%) ;
     width: 280px;
+    margin:auto;
     border-radius: 10px;
   }
 
