@@ -239,7 +239,7 @@ input::after{
   }
   .second-part{
     display: grid;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 15px;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
     grid-column-gap:10px;
