@@ -157,8 +157,8 @@ h3{
 }
 .card{
   display: grid;
-  margin-right: 10px; 
-   margin-left: 10px;
+  /* margin-right: 10px; 
+   margin-left: 10px; */
    margin-bottom: 40px;
   grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
   grid-template-rows: 100px 100px;
@@ -171,8 +171,8 @@ h3{
   background-color:  hsl(228, 28%, 20%);
   border-radius: 10px;
   width: 280px;
-  margin-left: 8px;
-  margin-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-around;
 }
