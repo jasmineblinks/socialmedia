@@ -215,14 +215,26 @@ input::after{
   margin-top: 10px;
 }
 
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media(min-width:768px){
   .grid{
       grid-template-columns: 1fr 2fr 1fr;
       grid-template-areas:
+    
       "header header header"
       "main main main"
       /* "footer footer footer" */
        ;
+       
 
   }
   .second-part{
@@ -230,7 +242,7 @@ input::after{
     margin-left: 15px;
     margin-right: 15px;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-    grid-gap:10px;
+    grid-gap:20px;
     text-align: center;
   }
   .second-text{
