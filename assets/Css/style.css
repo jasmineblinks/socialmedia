@@ -239,6 +239,10 @@ input::after{
        
 
   }
+  .first-part{
+    display: flex;
+    justify-content: space-between;
+  }
   .second-part{
     display: grid;
     margin-left: 15px;
@@ -403,6 +407,10 @@ input::after{
       /* "footer footer footer" */
        ;
 
+  }
+  .first-part{
+    display: flex;
+    justify-content: space-between;
   }
   hr{
     display: none;
