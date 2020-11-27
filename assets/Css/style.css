@@ -218,6 +218,14 @@ input::after{
   width: 26px;
   border-radius: 100px;
 }
+
+input:checked{
+background: hsl(230, 22%, 74%);
+}
+input:checked::after{
+  background-color: #ffffff;
+  transform: translate(100%);
+  }
 .cheeky{
   display: flex;
   justify-content: space-around;
