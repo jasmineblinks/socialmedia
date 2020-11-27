@@ -183,8 +183,18 @@ main h3{
   margin-top: 15px;
 }
 hr{
-  width: 300px; 
-  background-color: hsl(228, 34%, 66%);
+
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: hsl(228, 34%, 66%);;
+  /* width: 300px; 
+  border: 1px solid hsl(228, 34%, 66%);
+  height: 2px; */
 }
 input{
   -webkit-appearance: none;
