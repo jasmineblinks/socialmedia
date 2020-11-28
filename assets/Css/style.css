@@ -274,22 +274,13 @@ input:checked::after{
     justify-content: space-between;
   }
   .second-part{
-
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-    text-align: center;
-}
-    /* display: grid;
     margin-left: 15px;
     margin-right: 3px;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-column-gap:10px;
     grid-row-gap: 25px;
-    text-align: center; */
+    text-align: center;
 
   }
   .second-text{
@@ -365,10 +356,10 @@ input:checked::after{
 
   .card{
     display: grid;
-    margin-right: auto; 
-     margin-left: auto;
+    margin-right: 10px; 
+     margin-left: 10px;
      margin-bottom: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: 100px 100px;
     grid-gap:20px;
     /* text-align: center; */
@@ -378,7 +369,7 @@ input:checked::after{
   .the-six{
     background-color:  hsl(228, 28%, 20%);
     border-radius: 10px;
-    width: 240px;
+    width: 280px;
     margin-left: 8px;
     margin-right: 5px;
     display: flex;
@@ -435,7 +426,7 @@ input:checked::after{
   }
   
   
-
+}
 
 @media(min-width:992px){
   .grid{
