@@ -55,7 +55,7 @@ body{
  
 }
 .second-text{
-  background-color: hsl(228, 28%, 20%) ;
+  background-color: hsl(227, 47%, 96%) ;
   width: 290px;
   position: relative;
    margin-left: auto;
@@ -65,7 +65,7 @@ body{
 
 
 .first-mini{
-  background-color: hsl(228, 28%, 20%) ;
+  background-color: hsl(227, 47%, 96%) ;
   width: 290px;
   position: relative;
   margin-left: auto;
@@ -249,10 +249,16 @@ input:checked::after{
 .light-mode{
   background-color:hsl(232, 19%, 15%) ;
 }
-.card-color{
-  background-color: hsl(227, 47%, 96%)
-  ;
+.whitecard{
+  background-color: hsl(228, 28%, 20%) ;
 }
+
+  
+/* #cardcolor{
+ 
+  background-color: hsl(227, 47%, 96%) ;
+} */
+
 
 @media(min-width:768px){
   .grid{
@@ -423,6 +429,10 @@ input:checked::after{
   
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+  .whitecard{
+    background-color: hsl(227, 47%, 96%)
+    ;
   }
   
   
