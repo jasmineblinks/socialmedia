@@ -1,14 +1,15 @@
 
 
-function darkMode(){
-    let mode = document.getElementById("grid");
-    let b = document.getElementById("cardcolor");
-    let c = document.getElementById("thecolor");
-    mode.classList.toggle("light-mode"); 
-    b.classList.toggle("whitecard");
-    c.classList.toggle("whitecard");
-    
-}
 
+const checkBox = document.getElementById("checkbutton");
+const body = document.querySelector("body")
 
-darkMode();
+checkBox.addEventListener("click", () => {
+    if (checkBox.checked === true) {
+        body.classList.remove("container");
+        body.classList.add("light-theme");
+    } else if (checkBox.checked === false) {
+        body.classList.remove("light-theme");
+        body.classList.add("container");
+    }
+});
