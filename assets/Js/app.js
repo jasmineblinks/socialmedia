@@ -12,4 +12,10 @@ checkBox.addEventListener("click", () => {
         body.classList.remove("light-theme");
         body.classList.add("container");
     }
+    let toggleText = document.getElementById("check-text");
+    if (toggleText.innerHTML === "Dark Mode") {
+      toggleText.innerHTML = "Light Mode";
+    } else {
+      toggleText.innerHTML = "Dark Mode";
+    }
 });
