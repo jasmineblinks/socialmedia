@@ -541,29 +541,29 @@ input:checked::after{
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-column-gap:10px; */
+    grid-column-gap:2px;
     /* grid-row-gap: 20px; */
     text-align: center;
 
   }
   .second-text{
     background-color: var(--cardbg-dark) ;   
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
   }
   .first-mini{
     background-color: var(--cardbg-dark) ;
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
   }
   .second-mini{
     background-color: var(--cardbg-dark) ;
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
   }
   .third-mini{
     background-color: var(--cardbg-dark) ;    
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
   }
 
@@ -571,7 +571,7 @@ input:checked::after{
     content: "";
    
   position: absolute;
-  width: 250px;
+  width: 280px;
   height: 5px;
   background: var(--facebook);
   left: 0px;
@@ -582,7 +582,7 @@ input:checked::after{
     content: "";
    
   position: absolute;
-  width: 250px;
+  width: 280px;
   height: 5px;
   background: var(--twitter);
   left: 0px;
@@ -594,7 +594,7 @@ input:checked::after{
     content: "";
    
   position: absolute;
-  width: 250px;
+  width: 280px;
   height: 5px;
   background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   left: 0px;
@@ -605,7 +605,7 @@ input:checked::after{
     content: "";
    
   position: absolute;
-  width: 250px;
+  width: 280px;
   height: 5px;
   background: hsl(348, 97%, 39%);
   left: 0px;
