@@ -13,9 +13,9 @@ checkBox.addEventListener("click", () => {
         body.classList.add("container");
     }
     let toggleText = document.getElementById("check-text");
-    if (toggleText.innerHTML === "Dark Mode") {
-      toggleText.innerHTML = "Light Mode";
-    } else {
+    if (toggleText.innerHTML === "Light Mode") {
       toggleText.innerHTML = "Dark Mode";
+    } else {
+      toggleText.innerHTML = "Light Mode";
     }
 });
