@@ -113,12 +113,16 @@ body{
      justify-content: center;
      align-items: center;
    }
-   
-   .first-phase .second-phase{
+   /* .first-phase {
+    display: flex;\
+   justify-content: space-
+   padding: 10px 30px;
+  }
+    .second-phase {
      display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px 30px;
-   }
+   } */
 .second-part{
   display: grid;
   /* margin-right: 10px; 
@@ -240,7 +244,7 @@ border-radius: 10px;
 h3{
   font-size: 25px;
 }
-/* .card{
+.card{
   display: grid;
   margin-right: 10px; 
    margin-left: 10px;
@@ -251,7 +255,7 @@ h3{
   text-align: center;
   line-height: 15px;
  
-} */
+}
 /* .card-color{
    background-color: var(--cardbg-dark) ;
    border-radius: 10px;
@@ -263,8 +267,8 @@ h3{
   width: 300px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex; */
-  /* justify-content: space-around; */
+  display: flex;
+  justify-content: space-around;
 }
 main h3{
   margin-left: 20px;
@@ -479,9 +483,9 @@ input:checked::after{
   main h3{
     margin-left: 20px;
   }
-  .second-phase{
+  /* .second-phase{
     margin-top: 15px;
-  }
+  } */
   hr{
     display: none;
   }
@@ -665,9 +669,9 @@ input:checked::after{
   main h3{
     margin-left: 20px;
   }
-  .second-phase{
+  /* .second-phase{
     margin-top: 15px;
-  }
+  } */
   hr{
     display: none;
   }
