@@ -130,7 +130,8 @@ body{
 
 
 .second-mini{
-  /* background-color: var(--bg-top) ; */
+  background-color: var(--cardbg-dark) ;
+  border-radius: 10px;
   width: 300px;
   position: relative;
   margin-left: auto;
@@ -358,22 +359,22 @@ input:checked::after{
 
   }
   .second-text {
-    /* background-color: hsl(228, 28%, 20%) ; */
+    background-color: var(--cardbg-dark) ;
     width: 250px;
     border-radius: 10px;
   }
   .first-mini{
-    /* background-color: hsl(228, 28%, 20%) ; */
+    background-color: var(--cardbg-dark) ;
     width: 250px;
     border-radius: 10px;
   }
   .second-mini{
-    /* background-color: hsl(228, 28%, 20%) ; */
+    background-color: var(--cardbg-dark) ;
     width: 250px;
     border-radius: 10px;
   }
   .third-mini{
-    /* background-color: hsl(228, 28%, 20%) ; */
+    background-color: var(--cardbg-dark) ;
     width: 250px;
     border-radius: 10px;
   }
