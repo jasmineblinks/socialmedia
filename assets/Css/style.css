@@ -296,6 +296,7 @@ input{
   position: relative;
   width: 60px;
   height: 30px;
+  cursor: pointer;
   border-radius: 50px;
   border: 1px solid hsl(146, 68%, 55%);
   outline: none;
